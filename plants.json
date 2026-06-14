@@ -575,6 +575,182 @@
     ],
     "application": "Vati: 100-250mg small compressed pills taken at evening time with a cup of hot water.",
     "source": "Bhāvaprakāśa Nighaṇṭu"
+  },
+  {
+    "name": "Twak",
+    "botanical": "Cinnamomum verum",
+    "sanskrit": "त्वक्",
+    "family": "Lauraceae",
+    "category": "DIGESTIVE",
+    "use": "A fragrant, warming bark used to kindle digestive fire, clear cold congestion from the lungs, and improve metabolic circulation.",
+    "compounds": ["CINNAMALDEHYDE", "EUGENOL", "CINNAMYL ACETATE"],
+    "parts": "Inner stem bark",
+    "mechanisms": [
+      {"title": "Insulin Receptor Sensitization", "desc": "Cinnamaldehyde mimics insulin effects, activating downstream cellular glucose transporter pathways natively."},
+      {"title": "Gastrointestinal Carminative", "desc": "Volatile oils relax mucosal linings, suppressing smooth muscle spasms and releasing trapped gas fields."}
+    ],
+    "application": "Churna: 1-3g of fine bark powder mixed with honey or steeped as a warming infusion.",
+    "source": "Bhāvaprakāśa Nighaṇṭu"
+  },
+  {
+    "name": "Ela",
+    "botanical": "Elettaria cardamomum",
+    "sanskrit": "एला",
+    "family": "Zingiberaceae",
+    "category": "DIGESTIVE",
+    "use": "A premium cooling carminative used to settle nausea, regulate stomach acidity, and clear heavy breath odors.",
+    "compounds": ["1,8-CINEOLE", "ALPHA-TERPINYL ACETATE", "LIMONENE"],
+    "parts": "Dried ripe seeds",
+    "mechanisms": [
+      {"title": "Gastric Antiemetic Action", "desc": "Volatile fractions act locally on gastric mucosal nerves, dampening peripheral vomiting trigger responses."},
+      {"title": "Proton Pump Regulation", "desc": "Inhibits over-secretion of gastric acid by safely modulating local histamine-2 receptor pathways."}
+    ],
+    "application": "Churna: 500mg-1g of freshly crushed seed powder taken with warm water before travels or meals.",
+    "source": "Caraka Saṃhitā, Sūtrasthāna"
+  },
+  {
+    "name": "Maricha",
+    "botanical": "Piper nigrum",
+    "sanskrit": "मरिच",
+    "family": "Piperaceae",
+    "category": "DIGESTIVE",
+    "use": "A sharp, drying spice used to cut through thick mucus, clear sinus blockages, and ignite sluggish systemic absorption.",
+    "compounds": ["PIPERINE", "PIPERIDINE", "CHAVICINE"],
+    "parts": "Dried fully mature fruits",
+    "mechanisms": [
+      {"title": "Hepatic Detox Regulation", "desc": "Temporarily downregulates certain CYP450 enzyme pathways to enhance the lifespan of circulating micronutrients."},
+      {"title": "Mucolytic Secretolysis", "desc": "Triggers immediate mild local irritation in respiratory linings, thinning heavy mucous plaques for easy clearing."}
+    ],
+    "application": "Churna: 250mg-1g fine powder taken with ghee or honey post-meals to avoid stomach irritation.",
+    "source": "Suśruta Saṃhitā"
+  },
+  {
+    "name": "Shunthi",
+    "botanical": "Zingiber officinale",
+    "sanskrit": "शुण्ठी",
+    "family": "Zingiberaceae",
+    "category": "ANTI-INFLAMMATORY",
+    "use": "Known universally as 'The Universal Medicine' (Vishwa Bheshaja); primary choice for joint pain, morning sickness, and digestive toxins.",
+    "compounds": ["GINGEROLS", "SHOGAOLS", "ZINGIBERENE"],
+    "parts": "Dried rhizome",
+    "mechanisms": [
+      {"title": "Dual COX/LOX Suppression", "desc": "Gingerol fractions simultaneously inhibit cyclooxygenase and lipoxygenase pathways, reducing arachidonic acid breakdown."},
+      {"title": "Serotonergic Antagonism", "desc": "Shogaols block specific 5-HT3 receptors in the gut, effectively turning off motion and systemic nausea signals."}
+    ],
+    "application": "Churna: 1-2g powder boiled in water to make ginger tea, or taken directly with warm water.",
+    "source": "Aṣṭāṅga Hṛdayam"
+  },
+  {
+    "name": "Jeeraka",
+    "botanical": "Cuminum cyminum",
+    "sanskrit": "जीरक",
+    "family": "Apiaceae",
+    "category": "DIGESTIVE",
+    "use": "The essential seed for managing flatulence, abdominal bloating, post-meal heaviness, and maternal lactation enhancement.",
+    "compounds": ["CUMINALDEHYDE", "CYMENE", "TERPINENE"],
+    "parts": "Dried ripe fruits",
+    "mechanisms": [
+      {"title": "Pancreatic Lipase Activation", "desc": "Cuminaldehyde compounds signal a sharp upregulation in target pancreatic digestive enzymes, accelerating macronutrient breakdowns."},
+      {"title": "Enteric Smooth Muscle Tone", "desc": "Soothes hyperactive intestinal walls to reduce cramping while maintaining normal forward peristalsis."}
+    ],
+    "application": "Infusion: 3-6g of seeds lightly roasted, boiled in water, and consumed warm throughout the day.",
+    "source": "Bhāvaprakāśa Nighaṇṭu"
+  },
+  {
+    "name": "Lavanga",
+    "botanical": "Syzygium aromaticum",
+    "sanskrit": "लवङ्ग",
+    "family": "Myrtaceae",
+    "category": "ANTIMICROBIAL",
+    "use": "An intense, numbing spice used universally for localized dental pain, acute throat irritations, and systemic fungal overgrowths.",
+    "compounds": ["EUGENOL", "EUGENYL ACETATE", "BETA-CARYOPHYLLENE"],
+    "parts": "Dried unexpanded flower buds",
+    "mechanisms": [
+      {"title": "Voltage-Gated Sodium Blocking", "desc": "Concentrated eugenol blocks local nerve signal pathways, producing an immediate topical anesthetic effect on contact."},
+      {"title": "Biofilm Architecture Degradation", "desc": "Penetrates and breaks down the protective sticky barriers of common oral bacterial colonies."}
+    ],
+    "application": "Oil: 1-2 drops of essential oil applied via cotton swab locally to affected dental cavities.",
+    "source": "Dhanvantari Nighaṇṭu"
+  },
+  {
+    "name": "Methi",
+    "botanical": "Trigonella foenum-graecum",
+    "sanskrit": "मेथी",
+    "family": "Fabaceae",
+    "category": "DIGESTIVE",
+    "use": "Prescribed to regulate elevated blood sugars, calm intestinal inflammation, and soothe aching lower back conditions.",
+    "compounds": ["DIOSGENIN", "4-HYDROXYISOLEUCINE", "GALACTOMANNANS"],
+    "parts": "Dried mature seeds",
+    "mechanisms": [
+      {"title": "Glucose Absorption Retardation", "desc": "High mucilaginous fiber structures physically slow down carbohydrate absorption rates across the intestinal wall."},
+      {"title": "Pancreatic Beta-Cell Support", "desc": "4-hydroxyisoleucine directly stimulates insulin secretion in a glucose-dependent manner natively."}
+    ],
+    "application": "Churna: 3-6g seed powder swallowed with warm water, or seeds soaked overnight in water and consumed.",
+    "source": "Bhāvaprakāśa Nighaṇṭu"
+  },
+  {
+    "name": "Dhanyaka",
+    "botanical": "Coriandrum sativum",
+    "sanskrit": "धान्यक",
+    "family": "Apiaceae",
+    "category": "DIGESTIVE",
+    "use": "A gentle, cooling digestive catalyst used to alleviate inner burning sensations, urinary heat, and early allergic flushes.",
+    "compounds": ["LINALOOL", "CORIANDRIN", "GERANIOL"],
+    "parts": "Dried fruits and fresh leaves",
+    "mechanisms": [
+      {"title": "Cooling Diuretic Acceleration", "desc": "Enhances glomerular filtration metrics to wash out internal heat markers without irritating kidney tissues."},
+      {"title": "Histamine Pathway Stabilization", "desc": "Linalool compounds modulate local immune responses to lower cutaneous and internal heat patterns."}
+    ],
+    "application": "Hima (Cold Infusion): 10g of crushed seeds steeped in 60ml of water overnight, strained and drank in the morning.",
+    "source": "Caraka Saṃhitā"
+  },
+  {
+    "name": "Vidanga alternative",
+    "botanical": "Butea monosperma",
+    "sanskrit": "पलाश",
+    "family": "Fabaceae",
+    "category": "ANTIMICROBIAL",
+    "use": "The historic 'Flame of the Forest'; used as a heavy response tool against large roundworms and toxic skin pathogens.",
+    "compounds": ["BUTRIN", "ISOBUTRIN", "PALASONIN"],
+    "parts": "Seeds, flowers, gum",
+    "mechanisms": [
+      {"title": "Anthelmintic De-clamping", "desc": "Palasonin fractions alter the glycolytic energy pathways of target roundworms, forcing them to decouple from host tissue walls."},
+      {"title": "Astringent Mucosal Toning", "desc": "Rich red gum tanins bind damaged tissue surfaces, quickly arresting chronic oozing gut leaks."}
+    ],
+    "application": "Churna: 1-3g of seed powder processed with organic honey or buttermilk on empty stomach profiles.",
+    "source": "Suśruta Saṃhitā"
+  },
+  {
+    "name": "Kupilu",
+    "botanical": "Strychnos nux-vomica",
+    "sanskrit": "कुपिलु",
+    "family": "Loganiaceae",
+    "category": "NERVINE",
+    "use": "A lethal neurotoxic seed carefully purified via extensive cow-ghee processing to treat advanced facial paralysis, sciatica, and extreme neurological drops.",
+    "compounds": ["STRYCHNINE", "BRUCINE", "LOGANIN"],
+    "parts": "Detoxified mature seeds",
+    "mechanisms": [
+      {"title": "Glycine Receptor Antagonism", "desc": "Controlled micro-doses block inhibitory glycine paths, inducing short, hyper-focused motor nerve firing sequences."},
+      {"title": "Vascular Tone Excitation", "desc": "Stimulates vasomotor centers inside the brain stem to briefly rescue falling systemic blood pressures."}
+    ],
+    "application": "Strictly Limited Vati: 30-60mg of fully purified seed matrix under absolute clinical supervision.",
+    "source": "Rasaratna Samuccaya"
+  },
+  {
+    "name": "Vacha alternative",
+    "botanical": "Paris polyphylla",
+    "sanskrit": "महाकाल",
+    "family": "Melanthiaceae",
+    "category": "NERVINE",
+    "use": "An alpine rhizome used to manage extreme neurological spasms, erratic brain activity frequencies, and deep tissue swelling.",
+    "compounds": ["POLYPHYLLIN D", "DIOSCIN", "PARIS SAPONINS"],
+    "parts": "Underground rhizome",
+    "mechanisms": [
+      {"title": "GABA-A Receptor Modulation", "desc": "Saponin complexes enhance chloride ion influxes into neurons, creating a heavy calming shield across over-firing motor zones."},
+      {"title": "Microvascular Permeability Control", "desc": "Blocks early capillary leaking patterns to quickly resolve deep internal tissue edema accumulations."}
+    ],
+    "application": "Paste: Rhizome ground with cold water into a fine paste and applied over deep target structural swellings.",
+    "source": "Madanapāla Nighaṇṭu"
   }
 ]
 
