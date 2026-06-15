@@ -2403,22 +2403,6 @@
     "source": "Bhāvaprakāśa Nighaṇṭu"
   },
   {
-    "name": "Nirgundi",
-    "botanical": "Vitex negundo",
-    "sanskrit": "निर्गुण्डी",
-    "family": "Lamiaceae",
-    "category": "ANTI-INFLAMMATORY",
-    "use": "The ultimate classic anti-arthritic leaf; used to rapidly clear severe sciatica, drain massive joint fluid swellings, and relieve agonizing neuralgic pain.",
-    "compounds": ["VITEXIN", "NEGUNDIN", "SABINENE", "AGNUSIDE"],
-    "parts": "Leaves and roots",
-    "mechanisms": [
-      {"title": "COX-2 Enzyme Suppression", "desc": "Agnuside fractions selectively block cycloxygenase-2 pathways, turning off the primary chemical triggers that drive hot joint inflammation tracks."},
-      {"title": "Peripheral Nociceptor Numbing", "desc": "Volatile leaf oils suppress peripheral nerve pain transmissions to quickly ease deep, throbbing back spasms."}
-    ],
-    "application": "Nirgundi Taila: Medicated leaf oil applied topically over swollen joints, combined with warm leaf poultices.",
-    "source": "Caraka Saṃhitā, Cikitsāsthāna"
-  },
-  {
     "name": "Nirgundi alternative",
     "botanical": "Vitex trifolia",
     "sanskrit": "जल निर्गुण्डी",
