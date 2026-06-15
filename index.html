@@ -72,6 +72,14 @@
     </main>
 
     <script>
+        // --- 1. THE LAG DESTROYER (DEBOUNCE) ---
+function debounce(func, delay = 150) {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => func.apply(this, args), delay);
+  };
+}
         let allPlants = [];
         let currentActiveCategory = 'ALL';
 
@@ -184,6 +192,46 @@
         }
 
         window.onload = loadDatabase;
+        // ========================================================
+// 2. CONNECT ENGINE TO THE HTML SEARCH INPUT BAR
+// ========================================================
+// NOTE: Change 'plantSearchInput' if your HTML input tag uses a different ID!
+const searchBarElement = document.getElementById('plantSearchInput');
+
+const executeSearch = debounce((event) => {
+  const query = event.target.value.toLowerCase().trim();
+  
+  // Rule A: If the search box is completely empty, show all 200 plants instantly
+  if (!query) {
+    if (typeof displayPlants === "function") displayPlants(allPlants);
+    else if (typeof renderCards === "function") renderCards(allPlants);
+    return;
+  }
+
+  // Rule B: NEW - If they only typed 1 letter, don't filter yet (prevents first-letter freeze)
+  if (query.length < 2) {
+    return; 
+  }
+
+  // Rule C: Filter the array cleanly across core properties
+  const filteredPlants = allPlants.filter(plant => {
+    const nameMatch = plant.name && plant.name.toLowerCase().includes(query);
+    const botanicalMatch = plant.botanical && plant.botanical.toLowerCase().includes(query);
+    const sanskritMatch = plant.sanskrit && plant.sanskrit.toLowerCase().includes(query);
+    const categoryMatch = plant.category && plant.category.toLowerCase().includes(query);
+    
+    return nameMatch || botanicalMatch || sanskritMatch || categoryMatch;
+  });
+
+  // Rule D: Redraw the screen dynamically with filtered matches
+  if (typeof displayPlants === "function") displayPlants(filteredPlants);
+  else if (typeof renderCards === "function") renderCards(filteredPlants);
+});
+
+// Fire search instantly upon input detection
+if (searchBarElement) {
+  searchBarElement.addEventListener('input', executeSearch);
+}
     </script>
 </body>
 </html>
